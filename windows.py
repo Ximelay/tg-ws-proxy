@@ -9,12 +9,13 @@ import sys
 import threading
 import time
 import webbrowser
-import pystray
 import pyperclip
 import asyncio as _asyncio
-import customtkinter as ctk
 from pathlib import Path
 from typing import Dict, Optional
+
+import pystray
+import customtkinter as ctk
 from PIL import Image, ImageDraw, ImageFont
 
 import proxy.tg_ws_proxy as tg_ws_proxy
